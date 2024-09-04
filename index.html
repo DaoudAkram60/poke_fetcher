@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>poke fetcher</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arbutus&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <img class="logo" src="images/c39fc9d81816dc5859b68742351961db.png" alt="">
+        <input id="input" type="text" placeholder="enter your pokemon">
+        <button id="submit" onclick="pokeFetch()">Submit</button>
+        <div class="poke_container">
+            <img id="sprite" src="" alt="">
+            <div class="stats_container">
+                <h2>Base Stats :</h2>
+                <div class="stats_splitter">
+                    <div><p id="hp" style="color: #DE0D0D;">50</p><br><p style="color: #DE0D0D;">hp</p> <br><br><p id="att" style="color: #FA8A07;">50</p> <br><p style="color: #FA8A07;"> att</p></div>
+                    <div><p id="def" style="color: #0A1AA8;">50</p><br><p style="color: #0A1AA8;">def</p> <br><br><p id="spd" style="color: #F5C800;">50</p> <br><p style="color: #F5C800;"> spd</p></div>
+                </div>
+            </div>
+        </div>
+        <script src="index.js"></script>    
+    </div>    
+</body>
+</html>
