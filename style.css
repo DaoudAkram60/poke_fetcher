@@ -88,6 +88,7 @@ button:hover{
 p{
     display: inline;
 }
+
 @media (max-width : 502px) {
     .poke_container{
         flex-direction: column;
@@ -102,8 +103,23 @@ p{
         padding-top: 0;
     }
 }
+@media (max-width : 475px) {
+    input::placeholder{
+        font-size: 1rem;
+    }
+}
 @media (max-width : 432px) {
     button{
         font-size: 0.7rem;
+    }
+}
+@media (max-width : 425px) {
+    input::placeholder{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width : 375px) {
+    input::placeholder{
+        font-size: 0.8rem;
     }
 }
